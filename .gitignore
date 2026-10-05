@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Machine Learning & Tracking
+mlruns/
+*.pkl
+*.joblib
+model/
+mlruns/
+mlflow.db
+
+# Environment Variables & Secrets
+.env
+secret.txt
+
+# IDEs & OS Files
+.vscode/
+.idea/
+.DS_Store
+__MACOSX/
+
+# Logs & Reports
+*.log
