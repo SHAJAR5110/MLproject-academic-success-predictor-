@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from imblearn.over_sampling import SMOTE
 import mlflow
 
-df = pd.read_csv("../data/data.csv", sep=';')
+df = pd.read_csv("data/data.csv", sep=';')
 
 df = df.drop(columns=['id'], errors='ignore')
 
