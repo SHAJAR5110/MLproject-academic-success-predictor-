@@ -136,29 +136,3 @@ Run the container:
 docker run -p 8000:8000 student-risk-api
 
 ```
-
-The API will be accessible at `http://localhost:8000/docs`.
-
-## 📡 API Usage
-
-**Endpoint:** `POST /predict`
-
-**Sample Input (JSON):**
-
-```json
-{
-  "Feature1": 1.5,
-  "Feature2": 0,
-  "Course_Nursing": 1
-}
-
-```
-
-**Sample Output (JSON):**
-
-```json
-{
-  "prediction": "Graduate"
-}
-
-```
